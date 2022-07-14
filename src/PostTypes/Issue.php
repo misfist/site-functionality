@@ -21,6 +21,7 @@ class Issue extends PostType {
 	 */
 	public const POST_TYPE = array(
 		'id'          => 'issue',
+		'slug'        => 'issues',
 		'menu'        => 'Issues',
 		'title'       => 'Issues',
 		'singular'    => 'Issue',
@@ -28,7 +29,6 @@ class Issue extends PostType {
 		'taxonomies'  => array(),
 		'has_archive' => 'issues',
 		'with_front'  => false,
-		'archive'     => 'issues',
 		'rest_base'   => 'issues',
 	);
 
@@ -38,15 +38,15 @@ class Issue extends PostType {
 	public const FIELDS = array();
 
 	// /**
-	//  * Init
-	//  *
-	//  * @return void
-	//  */
+	// * Init
+	// *
+	// * @return void
+	// */
 	// public function init() {}
 
 	/**
 	 * Register custom query vars
-	 * 
+	 *
 	 * @link https://developer.wordpress.org/reference/hooks/query_vars/
 	 *
 	 * @param array $vars The array of available query variables
