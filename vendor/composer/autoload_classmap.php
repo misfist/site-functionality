@@ -18,6 +18,8 @@ return array(
     'Site_Functionality\\Common\\WP_Includes\\Activator' => $baseDir . '/src/common/wp-includes/class-activator.php',
     'Site_Functionality\\Common\\WP_Includes\\Deactivator' => $baseDir . '/src/common/wp-includes/class-deactivator.php',
     'Site_Functionality\\Modules\\Modules' => $baseDir . '/src/modules/class-modules.php',
+    'Site_Functionality\\Modules\\Performance' => $baseDir . '/src/modules/class-performance.php',
     'Site_Functionality\\Modules\\Remote_Media' => $baseDir . '/src/modules/class-remote-media.php',
+    'Site_Functionality\\Modules\\Security' => $baseDir . '/src/modules/class-security.php',
     'Site_Functionality\\Site_Functionality' => $baseDir . '/src/class-site-functionality.php',
 );

@@ -19,7 +19,9 @@ class ComposerStaticInit79748fcebbe0b4d5a437ef9bea3d53bb
         'Site_Functionality\\Common\\WP_Includes\\Activator' => __DIR__ . '/../..' . '/src/common/wp-includes/class-activator.php',
         'Site_Functionality\\Common\\WP_Includes\\Deactivator' => __DIR__ . '/../..' . '/src/common/wp-includes/class-deactivator.php',
         'Site_Functionality\\Modules\\Modules' => __DIR__ . '/../..' . '/src/modules/class-modules.php',
+        'Site_Functionality\\Modules\\Performance' => __DIR__ . '/../..' . '/src/modules/class-performance.php',
         'Site_Functionality\\Modules\\Remote_Media' => __DIR__ . '/../..' . '/src/modules/class-remote-media.php',
+        'Site_Functionality\\Modules\\Security' => __DIR__ . '/../..' . '/src/modules/class-security.php',
         'Site_Functionality\\Site_Functionality' => __DIR__ . '/../..' . '/src/class-site-functionality.php',
     );
 

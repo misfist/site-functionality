@@ -10,6 +10,8 @@ namespace Site_Functionality\Modules;
 
 use Site_Functionality\Common\Abstracts\Base;
 use Site_Functionality\Modules\Remote_Media;
+use Site_Functionality\Modules\Security;
+use Site_Functionality\Modules\Performance;
 
 // Exit if accessed directly.
 if ( ! defined( 'ABSPATH' ) ) {
@@ -31,6 +33,8 @@ class Modules extends Base {
 	 */
 	public function init(): void {
 		new Remote_Media();
+		new Performance();
+		new Security();
 	}
 
 }
